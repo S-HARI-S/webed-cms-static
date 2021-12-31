@@ -11,8 +11,58 @@
 <link rel="stylesheet" href="assets/css/style.css">
 <title>create post</title>
 </head>
-<body>
+<body style="background-color: rgb(175, 148, 148);">
+    <nav class="navbar navbar-expand-lg navbar-light  mb-5" style="background-color:rgba(255, 0, 0, 0.432);">
+        <a class="navbar-brand"style="color:white; text-shadow: 2px 2px black;" href="#">WebEd</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link"style="color:white; text-shadow: 2px 2px black;"  href="#">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link"style="color:white; text-shadow: 2px 2px black;"  href="#">Start writing<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link"style="color:white; text-shadow: 2px 2px black;"  href="#">new<span class="sr-only">(current)</span></a>
+              </li>
+          </ul>
 
+        </div>
+      </nav>
+      <div class="container" >
+          <div class="jumbotron" style="background-color: rgba(0, 0, 0, 0.568); box-shadow: 25px 25px rgba(0, 0, 0, 0.295);">
+
+                       <h3 class = " text-center text-uppercase" style="color: rgb(255, 255, 255);">create content</h3>
+
+        <div class="row">
+            <div class=" col-md-7  mx-auto">
+                <form>
+                    <div class="form-group">
+                      <label for="exampleFormControlTextarea" style="color: rgb(255, 255, 255); ">Blog Headline </label>
+                      <input placeholder="Enter head line" type="text" class="form-control" id="exampleFormControlTextarea" aria-describedby="emailHelp">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1"style="color: white;">Content</label>
+                        <textarea placeholder="Enter content" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+
+                    <div class="form-group">
+                      <label for="exampleInputPassword1"style="color: white;">Author name</label>
+                      <input placeholder="Author name" type="text" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+            </div>
+        </div>
+        
+      </div>
+    </section>
+    </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
